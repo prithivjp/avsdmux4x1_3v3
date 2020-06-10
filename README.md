@@ -49,6 +49,5 @@ Follow the following steps to use the spice netlist to view your waveforms:
 
     If any wrong label is entered, a dialogue box opens containing the list of all nodes and labels available.
 ## Contact Details
-   **Prithivi Raj K  
-     National Institute of Technology, Tiruchirapalli  
-     prithivjp@gmail.com**
+   **Prithivi Raj K  National Institute of Technology Tiruchirapalli prithivjp@gmail.com**  
+   **Kunal Ghosh  Co-Founder at VLSI System Design(VSD) kunalpghosh@gmail.com**  
