@@ -23,7 +23,7 @@ in your PC .
 
 ## View Schematic and Waveforms
 The following steps should be followed to view the schematic and waveforms:
-1. Clone the repositary in your desktop or down load the zip file and extract all files into  
+1. Clone the repositary in your desktop or download the zip file and extract all files into  
 your pc. The three different .asc files are of three different applications  
    of analog multiplexers.  
 2. Open the .asc file directly or open LTspice first and follow the following steps  
