@@ -23,9 +23,9 @@ in your PC .
 
 ## View Schematic and Waveforms
 The following steps should be followed to view the schematic and waveforms:
-1. Download the .asc files . The three different files are of three different applications  
+1. Clone the repositary in your desktop. The three different .asc files are of three different applications  
    of analog multiplexers.  
-2. Open the downloaded file directly or open LTspice first and follow the following steps  
+2. Open the .asc file directly or open LTspice first and follow the following steps  
    ``` File > Open > Select the .asc files. ``` I'll suggest you to follow the later  
    steps because, sometimes windows might not identify the right application to open the file.
 3. Once you have opened the file. You can see the spice schematic. 
