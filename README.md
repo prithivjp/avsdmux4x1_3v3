@@ -22,7 +22,7 @@ help you download and install the application in your PC .
 3. Now follow basic installation steps and install the software.  
 
 **LINUX**
-1. LTspice cannotbe directly installed on LINUX. LINUX users must install **WINE**. Wine is a linux  
+1. LTspice cannot be directly installed on LINUX. LINUX users must install **WINE**. Wine is a linux  
    software that creates windows environment and allows you to run various windows programs. Download  
    wine from [Wine](https://wiki.winehq.org/Download/).  
 2. Follow similar steps as mentioned for windows to download LTspice setup.  
