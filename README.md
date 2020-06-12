@@ -39,7 +39,7 @@ waveform window and select Add Plot Pane. This will add an extra pane to view th
 You can add as many number of panes according to your requirement.If you feel like changing  
 the color of the waveforms or background,  ``` Tools > Control Panel > Waveforms > Color Scheme ```.  
 
-The waveforms file in the repositary is shows the input output waveforms of all the three applications.
+The waveforms file in the repositary shows the input output waveforms of all three applications.
 
 ### Spice Netlist
 You can also view the spice netlist of your schematic. ``` View > Spice Netlist ```.  
