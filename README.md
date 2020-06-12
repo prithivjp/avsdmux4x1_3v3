@@ -18,7 +18,8 @@ help you download and install the application in your PC .
 1. Download the setup file from **Analog Devices** webpage.
    * Click the download link here to take you to the website. [DOWNLOAD](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html)
 2. Click the ``` Download for windows ``` or ``` Download for mac ``` tabs according to your requirement  
-   which will will automatically download the setup file into your PC. 
+   which will will automatically download the setup file into your PC. You can see similar image as given  
+   below at Analog devices website.
    
    ![](Step_Images/spice%20own.PNG)
    
@@ -35,7 +36,8 @@ help you download and install the application in your PC .
 
 4. Accept the license and follow basic installation steps.
 ## Schematic and Waveforms
-The following steps should be followed to view the schematic and waveforms:
+
+### Viewing Schematic
 1. Clone the repositary in your desktop or download the zip file and extract all files into  
 your pc. The three different .asc files are of three different applications  
    of analog multiplexers.  
@@ -46,24 +48,27 @@ your pc. The three different .asc files are of three different applications
    <img src="Step_Images/OPEN.PNG" width="270" height="500" >
    
 3. Once you have opened the file. You can see the spice schematic. 
-4. To view the waveforms just click the ``` Simulate ``` tab on the top and select ``` Run ```  
+
+## Viewing Waveforms
+1. To view the waveforms just click the ``` Simulate ``` tab on the top and select ``` Run ```  
    option which opens a waveform window for you.  
    
-   <img src="Step_Images/Sim-Run.PNG" width="500" height="400" >
+   <img src="Step_Images/Sim-Run.PNG" width="600" height="200" >
    
-5. Go to schematic and click the nodes at which you wish to view the voltage levels.
+2. Go to schematic and click the nodes at which you wish to view the voltage levels.
 
-To view the various node voltages in different plots simultaneously, just right click on the  
-waveform window and select Add Plot Pane. This will add an extra pane to view the wave forms.  
-You can add as many number of panes according to your requirement.
+3. To view the various node voltages in different plots simultaneously, just right click on the  
+   waveform window and select Add Plot Pane. This will add an extra pane to view the wave forms.  
+   You can add as many number of panes according to your requirement.
 
-<img src="Step_Images/PLOT.PNG" width="100" height="180" >
+<img src="Step_Images/PLOT.PNG" width="200" height="360" >
 
-If you feel like changing  the color of the waveforms or background,  
-``` Tools > Control Panel > Waveforms > Color Scheme ```.  
+4. If you feel like changing  the color of the waveforms or background,  
+   ``` Tools > Control Panel > Waveforms > Color Scheme ```.  
 
 <img src="Step_Images/color.PNG" width="500" height="360" >
-Schematic and input output waveforms of Analog to Digital converter is shown below.
+    
+   ***Schematic and input output waveforms of Analog to Digital converter is shown below.***
 
 ## ADC ##
 This is a comparator multiplexer based ADC. In this example I have used a sine wave as my input(Vi).  
@@ -77,7 +82,7 @@ Waveforms file in the repositary.
 ### Spice Netlist
 You can view the spice netlist of your schematic. ``` View > Spice Netlist ```.
 
-<img src="Step_Images/NETlist.PNG" width="500" height="360" >
+<img src="Step_Images/NETlist.PNG" width="500" height="450" >
 
 A text box that contains the spice netlist opens up.  
 Follow the following steps to use the spice netlist to view your waveforms:
@@ -85,7 +90,7 @@ Follow the following steps to use the spice netlist to view your waveforms:
 2. Open LTspice and drag the .cir file into the LTspice window, which opens the netlist in LTspice. 
 3. Type the command ``` .print XX``` below the command ```.tran``` . Here XX denotes the label of the quantity used.
 
-<img src="Step_Images/net-change.png" width="500" height="360" >
+<img src="Step_Images/net-change.png" width="800" height="580" >
 
 4. To view the waveforms just click the ``` Simulate ``` tab on the top and select ``` Run ```  
    option which opens a waveform window along with the waveform of the node mentioned in the previous step.  
