@@ -19,9 +19,13 @@ in your PC .
    * Click the download link here to take you to the website. [DOWNLOAD](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html)
 2. Click the ``` Download for windows ``` or ``` Download for mac ``` tabs according to your requirement  
    which will will automatically download the setup file into ur PC. 
-3. Now follow basic installation steps and install the software.
+3. Now follow basic installation steps and install the software.  
 
-## View Schematic and Waveforms
+**Note**: LTspice cannot be directly installed on LINUX. LINUX users should install wine, that  
+creates a working windows environment with dll files and allows you to install and run many  
+windows programs. For detailed steps visit http://www.zen22142.zen.co.uk/ltspice/install.htm.
+
+## Schematic and Waveforms
 The following steps should be followed to view the schematic and waveforms:
 1. Clone the repositary in your desktop or download the zip file and extract all files into  
 your pc. The three different .asc files are of three different applications  
