@@ -72,7 +72,7 @@ Waveforms file in the repositary.
 
 <img src="Step_Images/adc-Sch.PNG" width="500" height="360" >
 
-<img src="Step_Images/adc-wave.PNG" width="500" height="360" >
+<img src="Step_Images/adc1.PNG" width="500" height="360" >
 
 ### Spice Netlist
 You can view the spice netlist of your schematic. ``` View > Spice Netlist ```.
