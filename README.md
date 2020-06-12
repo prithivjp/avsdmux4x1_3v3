@@ -18,7 +18,7 @@ help you download and install the application in your PC .
 1. Download the setup file from **Analog Devices** webpage.
    * Click the download link here to take you to the website. [DOWNLOAD](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html)
 2. Click the ``` Download for windows ``` or ``` Download for mac ``` tabs according to your requirement  
-   which will will automatically download the setup file into ur PC. 
+   which will will automatically download the setup file into your PC. 
 3. Now follow basic installation steps and install the software.  
 
 **LINUX**
