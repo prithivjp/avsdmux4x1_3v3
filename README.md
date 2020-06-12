@@ -85,7 +85,7 @@ Follow the following steps to use the spice netlist to view your waveforms:
 2. Open LTspice and drag the .cir file into the LTspice window, which opens the netlist in LTspice. 
 3. Type the command ``` .print XX``` below the command ```.tran``` . Here XX denotes the label of the quantity used.
 
-<img src="Step_Images/2020-06-12 (8).png" width="500" height="360" >
+<img src="Step_Images/net-change.png" width="500" height="360" >
 
 4. To view the waveforms just click the ``` Simulate ``` tab on the top and select ``` Run ```  
    option which opens a waveform window along with the waveform of the node mentioned in the previous step.  
