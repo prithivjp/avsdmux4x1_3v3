@@ -36,10 +36,10 @@ your pc. The three different .asc files are of three different applications
 
 To view the various node voltages in different plots simultaneously, just right click on the  
 waveform window and select Add Plot Pane. This will add an extra pane to view the wave forms.  
-You can add as many number of panes according to your requirement.
+You can add as many number of panes according to your requirement.If you feel like changing  
+the color of the waveforms or background,  ``` Tools > Control Panel > Waveforms > Color Scheme ```.  
 
-If you feel like changing the color of the waveforms or background,  
-``` Tools > Control Panel > Waveforms > Color Scheme ```
+The waveforms file in the repositary is shows the input output waveforms of all the three applications.
 
 ### Spice Netlist
 You can also view the spice netlist of your schematic. ``` View > Spice Netlist ```.  
