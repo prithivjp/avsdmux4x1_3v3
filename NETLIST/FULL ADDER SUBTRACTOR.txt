@@ -1,4 +1,4 @@
-* E:\notes and books\E&ict\New folder\New folder\Full Adder Subtracter.asc
+
 V1 0V 0 -.5
 V3 B 0 PULSE(.5 -.5 0.00000001n 0.00000001n 0.00000001n 10u 20u)
 V4 Cin 0 PULSE(.5 -.5 0.00000001n 0.00000001n 0.00000001n 5u 10u)
