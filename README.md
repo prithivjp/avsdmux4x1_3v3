@@ -8,7 +8,9 @@ steps to view the schematic and waveforms are mentioned below.
 LT spice is used to simulate the applications of analog multiplexers. Ltspice is a spice  
 simulation software produced by semiconductor manufacturer Analog Devices. This spice tool  
 is easier to work with. You can make your schematic and also view the output waveforms  
-with the help of a single file with extension as .asc.
+with the help of a single file with extension as .asc. Spice tools like **NGSPICE** can also  
+be used to view the input output waveforms. Instructioins t0o view waveforms using these  
+are discussed below.
 
 ## Setup
 To view the .asc files you require **LTspice** application in your PC. Following steps will  
