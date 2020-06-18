@@ -97,6 +97,44 @@ Follow the following steps to use the spice netlist to view your waveforms:
 
     If any wrong label is entered, a dialogue box opens containing the list of all nodes and labels available.
     
+## Tool to be Used
+
+NGSPICE can be used to view the input output waveforms. NGSPICE is an open source mixed-signal circuit  
+simulator. It is the result of combining existing SPICE features with some extra analyses, modeling  
+methods and device simulation features.
+
+## SETUP
+
+**WINDOWS and Mac**  
+1. NGSPICE zip file should be downloaded. The ZIP file can be downloaded from [Here](http://ngspice.sourceforge.net/download.html).  
+2. Once downloaded extract the files in a folder of your convenience.
+3. The netlist files should be saved inside the same folder, so choose your location accordingly.
+
+**Ubuntu LINUX**
+1. LINUX users, open the LINUX terminal and write the following command and press ENTER:  
+   ```sudo apt-get install ngspice```
+2. Type your Password and press ENTER.
+3. NGSPICE will be installed in a couple of minutes.
+
+## Viewing Waveforms
+
+**WINDOWS and Mac**
+1. After done with the extraction of the zip file, open the folder where you can see a folder named ```Spice64```.
+2. Open the ```Spice64``` folder followed by another folder named ```bin```.
+3. Create a new text document and paste the contents of netlist file from the repositary into the text file.
+4. Save the text document with the extension **.cir** in the same location.
+5. Open the ```ngspice``` applicaion in the bin folder and type the name of the .cir file saved in the previous  
+   step along with the extension. Say for example if the file name is ABC, type ABC.cir in the box.
+6. Press ENTER and respective waveforms appear.
+
+**LINUX**
+1. Open any text document and copy the contents of the netlist file from the repositary into the text file.
+2. Save the text file with extension as **.cir** in a location of your choice. Say the file is saved as  
+   ABC.cir at Documents.
+3. Open the LINUX terminal and write the command ```ngspice``` and press enter.
+4. Type the path of the file saved in step 2 and and press enter.
+5. Respective waveforms appear.
+    
 ## Contact Details
    **Prithivi Raj K  National Institute of Technology Tiruchirapalli prithivjp@gmail.com**  
    **Kunal Ghosh  Co-Founder at VLSI System Design(VSD) kunalpghosh@gmail.com**  
