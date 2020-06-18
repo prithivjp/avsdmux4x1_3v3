@@ -114,6 +114,9 @@ methods and device simulation features.
 1. LINUX users, open the LINUX terminal and write the following command and press ENTER:  
    ```sudo apt-get install ngspice```
 2. Type your Password and press ENTER.
+
+   <img src="Step_Images/insta.PNG" width="500" height="360" >
+   
 3. NGSPICE will be installed in a couple of minutes.
 
 ## Viewing Waveforms
@@ -132,8 +135,14 @@ methods and device simulation features.
 2. Save the text file with extension as **.cir** in a location of your choice. Say the file is saved as  
    ABC.cir at Documents.
 3. Open the LINUX terminal and write the command ```ngspice``` and press enter.
+
+   <img src="Step_Images/view1.PNG" width="500" height="360" >
+   
 4. Type the path of the file saved in step 2 and and press enter. For example for the mentioned in step 2,  
-   the command is ```Documents/adc.cir```
+   the command is ```Documents/adc.cir```.
+   
+   <img src="Step_Images/view2.PNG" width="500" height="360" >
+   
 5. Respective waveforms appear.
     
 ## Contact Details
