@@ -55,16 +55,17 @@ methods and device simulation features.
 1. Open any text document and copy the contents of the netlist file from the repositary into the text file.
 2. Save the text file with extension as **.cir** in a location of your choice. Say the file is saved as  
    ABC.cir at Documents.
-3. Open the LINUX terminal and write the command ```ngspice``` and press enter.
+3. Instead of copying, the .cir file can be used directly.
+4. Open the LINUX terminal and write the command ```ngspice``` and press enter.
 
    <img src="Step_Images/view1.PNG" width="500" height="360" >
    
-4. Type the path of the file saved in step 2 and and press enter. For example for the mentioned in step 2,  
+5. Type the path of the file saved in step 2 and and press enter. For example for the mentioned in step 2,  
    the command is ```Documents/ABC.cir```.
    
    <img src="Step_Images/view2.PNG" width="500" height="360" >
    
-5. Respective waveforms appear.
+6. Respective waveforms appear.
 
 ## LTspice
 
