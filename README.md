@@ -106,7 +106,10 @@ methods and device simulation features.
 ## SETUP
 
 **WINDOWS and Mac**  
-1. NGSPICE zip file should be downloaded. The ZIP file can be downloaded from [Here](http://ngspice.sourceforge.net/download.html).  
+1. NGSPICE zip file should be downloaded. The ZIP file can be downloaded from [Here](http://ngspice.sourceforge.net/download.html). 
+
+   <img src="Step_Images/win_insta.PNG" width="500" height="360" >
+
 2. Once downloaded extract the files in a folder of your convenience.
 3. The netlist files should be saved inside the same folder, so choose your location accordingly.
 
@@ -128,6 +131,9 @@ methods and device simulation features.
 4. Save the text document with the extension **.cir** in the same location.
 5. Open the ```ngspice``` applicaion in the bin folder and type the name of the .cir file saved in the previous  
    step along with the extension. Say for example if the file name is ABC, type ABC.cir in the box.
+   
+   <img src="Step_Images/winrun" width="500" height="360" >
+   
 6. Press ENTER and respective waveforms appear.
 
 **LINUX**
