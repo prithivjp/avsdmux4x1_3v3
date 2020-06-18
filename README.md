@@ -132,7 +132,8 @@ methods and device simulation features.
 2. Save the text file with extension as **.cir** in a location of your choice. Say the file is saved as  
    ABC.cir at Documents.
 3. Open the LINUX terminal and write the command ```ngspice``` and press enter.
-4. Type the path of the file saved in step 2 and and press enter.
+4. Type the path of the file saved in step 2 and and press enter. For example for the mentioned in step 2,  
+   the command is ```Documents/adc.cir```
 5. Respective waveforms appear.
     
 ## Contact Details
