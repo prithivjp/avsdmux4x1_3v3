@@ -132,7 +132,7 @@ methods and device simulation features.
 5. Open the ```ngspice``` applicaion in the bin folder and type the name of the .cir file saved in the previous  
    step along with the extension. Say for example if the file name is ABC, type ABC.cir in the box.
    
-   <img src="Step_Images/winrun" width="500" height="360" >
+   <img src="Step_Images/winrun.PNG" width="600" height="235" >
    
 6. Press ENTER and respective waveforms appear.
 
