@@ -45,7 +45,7 @@ methods and device simulation features.
 3. Create a new text document and paste the contents of netlist file from the repositary into the text file.
 4. Save the text document with the extension **.cir** in the same location.
 5. Open the ```ngspice``` applicaion in the bin folder and type the name of the .cir file saved in the previous  
-   step along with the extension. Say for example if the file name is ABC, type ABC.cir in the box.
+   step along with the extension. Say for example if the file name is Data_Acquisition, type ABC.cir in the box.
    
    <img src="Step_Images/winrun.PNG" width="600" height="235" >
    
@@ -54,7 +54,7 @@ methods and device simulation features.
 **LINUX**
 1. Open any text document and copy the contents of the netlist file from the repositary into the text file.
 2. Save the text file with extension as **.cir** in a location of your choice. Say the file is saved as  
-   ABC.cir at Documents.
+   Data_Acquisition.cir at Documents.
 3. Instead of copying, the .cir file can be used directly.
 4. Open the LINUX terminal and write the command ```ngspice``` and press enter.
 
