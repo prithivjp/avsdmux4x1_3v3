@@ -156,6 +156,12 @@ Follow the following steps to use the spice netlist to view your waveforms:
 
     If any wrong label is entered, a dialogue box opens containing the list of all nodes and labels available.
     
+## Pre Layout characteristics
+The inputs of the multiplexer are basically the outputs of DAC and Bandgap Reference. Such models were created  
+and simulated. The spice netlist corresponding to the modelis available in folder Netlist named **model.cir**.  
+Block diagram and output waveforms are shown below.
+
+    
 ## Contact Details
    **Prithivi Raj K  National Institute of Technology Tiruchirapalli prithivjp@gmail.com**  
    **Kunal Ghosh  Co-Founder at VLSI System Design(VSD) kunalpghosh@gmail.com**  
