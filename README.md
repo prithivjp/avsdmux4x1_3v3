@@ -161,6 +161,9 @@ The inputs of the multiplexer are basically the outputs of DAC and Bandgap Refer
 and simulated. The spice netlist corresponding to the modelis available in folder Netlist named **model.cir**.  
 Block diagram and output waveforms are shown below.
 
+<img src="Step_Images/block.PNG" width="600" height="300" >
+<img src="Step_Images/prelaout.PNG" width="600" height="300" >
+
     
 ## Contact Details
    **Prithivi Raj K  National Institute of Technology Tiruchirapalli prithivjp@gmail.com**  
