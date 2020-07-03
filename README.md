@@ -157,7 +157,11 @@ Follow the following steps to use the spice netlist to view your waveforms:
     If any wrong label is entered, a dialogue box opens containing the list of all nodes and labels available.
     
 ## Pre Layout and Post Layout characteristics
-The schematic and the layout of the 4 input analog multiplexer is given below:
+The schematic and the layout of the 2 input and 4 input analog multiplexer are given below:
+
+<img src="Step_Images/21prepost.PNG" width="900" height="580" >
+
+<img src="Step_Images/41prepost.PNG" width="900" height="580" >
 
 The inputs of the multiplexer are basically the outputs of DAC and Bandgap Reference. Such models were created  
 and simulated. The spice netlist corresponding to the model is available in folder Netlist named **model.cir**.  
@@ -166,9 +170,14 @@ Block diagram and output waveforms are shown below.
 <img src="Step_Images/block.PNG" width="600" height="300" >
 <img src="Step_Images/prelaout.PNG" width="600" height="300" >
 
+# Characteristics
 Four different inputs were given to the analog multiplexer model and the characteristics of pre and post layout  
 were compared. Very slight glitches and some little variations were seen in the post layout characteristics  
 due to physical factors like the capacitance of polysilicon.
+
+<img src="Step_Images/prelayoutcharac.PNG" width="1101" height="580" >
+
+<img src="Step_Images/postlayoutcharac.PNG" width="1099" height="580" >
 
     
 ## Contact Details
