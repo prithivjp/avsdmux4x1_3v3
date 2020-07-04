@@ -1,4 +1,4 @@
-# Applications - Analog Multiplexer
+# Analog Multiplexer
 This project aims at developing an Analog multiplexer. Analog multiplexers are employed in various fields.  
 Few applications of analog multiplexers were studied and simulated using appropriate spice tool. Detailed  
 steps to view the schematic and waveforms are mentioned below.
