@@ -1,0 +1,62 @@
+* SPICE3 file created from newarea.ext - technology: scmos
+
+.option scale=0.1u
+
+.include NMOS-180nm.lib
+.include PMOS-180nm.lib
+
+M1000 a_22_49# S1 vss vss nfet w=8 l=2
++  ad=56 pd=30 as=112 ps=60
+M1001 a_62_31# S0 I2 w_n18_n1# pfet w=8 l=2
++  ad=168 pd=90 as=56 ps=30
+M1002 a_n1_n16# a_n3_n3# I1 w_n18_n1# pfet w=8 l=2
++  ad=168 pd=90 as=56 ps=30
+M1003 I0 S0 a_n1_n16# w_n18_n1# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1004 a_62_31# S1 outpt vss nfet w=8 l=2
++  ad=168 pd=90 as=112 ps=60
+M1005 outpt S1 a_n1_n16# w_9_25# pfet w=8 l=2
++  ad=112 pd=60 as=0 ps=0
+M1006 a_62_31# a_n3_n3# I2 vss nfet w=8 l=2
++  ad=0 pd=0 as=56 ps=30
+M1007 a_22_49# S1 vcc w_9_25# pfet w=8 l=2
++  ad=56 pd=30 as=112 ps=60
+M1008 a_n3_n3# S0 vss vss nfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1009 I3 S0 a_62_31# vss nfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1010 a_62_31# a_22_49# outpt w_9_25# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1011 a_n3_n3# S0 vcc w_n18_n1# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1012 I3 a_n3_n3# a_62_31# w_n18_n1# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1013 outpt a_22_49# a_n1_n16# vss nfet w=8 l=2
++  ad=0 pd=0 as=168 ps=90
+M1014 a_n1_n16# S0 I1 vss nfet w=8 l=2
++  ad=0 pd=0 as=56 ps=30
+M1015 I0 a_n3_n3# a_n1_n16# vss nfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+
+V1 vcc 0 1
+V2 S1 0 PULSE(.5 -.5 0.1n 0.1n 0.1n 2u 4u)
+V3 S0 0 PULSE(.5 -.5 0.1n 0.1n 0.1n 1u 2u)
+V4 I1 0 0.5
+V5 I0 0 SINE(0 1 25000000)
+V6 I3 0 0.7
+V7 I2 0 PULSE(-1 1 0.0001n 0.0001n 0.0001n 0.1u 0.2u)
+V8 vss 0 -1
+
+.tran 0.001u 4u
+.control
+run
+plot V(S0)
+plot V(S1)
+plot V(I0)
+plot V(I1)
+plot V(I2)
+plot V(I3)
+plot V(outpt)
+
+.endc
+.end

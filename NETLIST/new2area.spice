@@ -1,0 +1,39 @@
+* SPICE3 file created from newarea.ext - technology: scmos
+
+.option scale=0.1u
+.include NMOS-180nm.lib
+.include PMOS-180nm.lib
+M1000 a_22_49# sel vss vss nfet w=8 l=2
++  ad=56 pd=30 as=56 ps=30
+M1001 I1 sel outpt vss nfet w=8 l=2
++  ad=56 pd=30 as=112 ps=60
+M1002 outpt sel I0 w_9_25# pfet w=8 l=2
++  ad=112 pd=60 as=56 ps=30
+M1003 a_22_49# sel vcc w_9_25# pfet w=8 l=2
++  ad=56 pd=30 as=56 ps=30
+M1004 I1 a_22_49# outpt w_9_25# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1005 outpt a_22_49# I0 vss nfet w=8 l=2
++  ad=0 pd=0 as=56 ps=30
+
+V1 vcc 0 1
+
+V3 sel 0 PULSE(.5 -.5 0.1n 0.1n 0.1n 1u 2u)
+
+V5 I0 0 SINE(0 1 25000000)
+
+V7 I1 0 PULSE(-1 1 0.0001n 0.0001n 0.0001n 0.1u 0.2u)
+V8 vss 0 -1
+
+.tran 0.001u 4u
+.control
+run
+plot V(sel)
+
+plot V(I0)
+plot V(I1)
+
+plot V(outpt)
+
+.endc
+.end
