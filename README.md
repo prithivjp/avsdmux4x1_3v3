@@ -179,6 +179,22 @@ due to physical factors like the capacitance of polysilicon.
 
 <img src="Step_Images/postlayoutcharac.PNG" width="1099" height="580" >
 
+# Pin Description
+*In a 2 input analog multiplexer there is a total of 6 pins*
+1. Four input pins. (I0 and I1)
+2. Two Select signal pins. (S0)
+3. Output pin. (Out)
+4. Power pins (VDD and VEE)
+
+*In a 4  input analog multiplexer there is a total of 9 pins*
+1. Four input pins. (I0, I1, I2, I3)
+2. Two Select signal pins. (S0 and S1)
+3. Output pin. (Out)
+4. Power pins (VDD and VEE)
+
+**Forthcoming Work**
+The design of analog multiplexer is done and its characteristics were verified till the post layout stage. As a next step in the future PnR (Place and Route) woks will be carried out and an entire chip design will be done. PnR will be done with the help of OpenROAD tools.
+
     
 ## Contact Details
    **Prithivi Raj K  National Institute of Technology Tiruchirapalli prithivjp@gmail.com**  
