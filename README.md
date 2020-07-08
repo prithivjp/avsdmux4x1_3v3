@@ -242,7 +242,8 @@ largely used for academic purpose and also used by small companiies.
 
 ## SETUP
 1. Clone the repositary using command ```git clone https://github.com/prithivjp/Analog-Multiplexer.git```
-2. You can find a file **magic.sh** and a file **SCN6M_SUBM.10.tech**, copy both files to Home.
+2. You can find a file **magic.sh** and a file **SCN6M_SUBM.10.tech** inside the folder MAGIC in the  
+   repositary, copy both files to Home.
 3. Open Terminal and run the following two commands:
       ```chmod +x magic.sh```
       ```./magic.sh```
