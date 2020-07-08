@@ -5,7 +5,7 @@
 avsdmux4x1_3v3 and avsdmux2x1_3v3 will be handling are mostly the output from Bandgap reference and Digital 
 to Analog cinverters. The height, width and area of avsdmux4x1_3v3 and avsdmux2x1_3v3 is given below.
 
-<img src="Step_Images/heightwidth.PNG" width="700" height="157" >
+<img src="Step_Images/heightwidth.PNG" width="700" height="139" >
 
 ## Symbol and Pin Description
 *In a 2 input analog multiplexer there is a total of 6 pins*
