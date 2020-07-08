@@ -186,18 +186,23 @@ to Analog cinverters. The height, width and area of avsdmux4x1_3v3 and avsdmux2x
 
 <img src="Step_Images/heightwidth.PNG" width="500" height="115" >
 
-# Pin Description
+## Symbol and Pin Description
 *In a 2 input analog multiplexer there is a total of 6 pins*
 1. Four input pins. (I0 and I1)
 2. Two Select signal pins. (S0)
 3. Output pin. (Out)
 4. Power pins (VDD and VEE)
 
+<img src="Step_Images/21symbol.PNG" width="500" height="400" >
+
 *In a 4  input analog multiplexer there is a total of 9 pins*
 1. Four input pins. (I0, I1, I2, I3)
 2. Two Select signal pins. (S0 and S1)
 3. Output pin. (Out)
 4. Power pins (VDD and VEE)
+
+<img src="Step_Images/41symbol.PNG" width="500" height="400" >
+
 
 **Forthcoming Work**  
 The design of analog multiplexer is done and its characteristics were verified till the post layout stage.  
