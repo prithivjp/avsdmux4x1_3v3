@@ -1,0 +1,24 @@
+* 21mux prelayout
+V1 vdd 0 1
+V2 vee 0 -1
+V6 I0 0 SINE(0 1 25000000)
+V10 I1 0 PULSE(-1 1 0.0001n 0.0001n 0.0001n 0.1u 0.2u)
+M1 I0 N001 out vee n_mos l=0.18u w=0.36u
+M2 I1 select out vee n_mos l=0.18u w=0.36u
+M3 out select I0 vdd p_mos l=0.18u w=0.9u
+M4 out N001 I1 vdd p_mos l=0.18u w=0.9u
+M5 vdd select N001 vdd p_mos l=0.18u w=0.9u
+M6 N001 select vee vee n_mos l=0.18u w=0.36u
+V11 select 0 PULSE(.5 -.5 0.1n 0.1n 0.1n 1u 2u)
+.model NMOS NMOS
+.model PMOS PMOS
+.tran 0.001u 4u
+.inc osulib.lib
+.control
+run
+plot V(out)
+plot V(select)
+plot V(I0)
+plot V(I1)
+.endc
+.end
