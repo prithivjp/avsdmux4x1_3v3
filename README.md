@@ -303,8 +303,8 @@ The schematic and the layout of the 2 input and 4 input analog multiplexer are g
 
 The layout image with supply rails is available in the folder **Layout** in the repositary.
 The inputs of the multiplexer are basically the outputs of DAC and Bandgap Reference. Such models were created  
-using LTspice and simulated. The spice netlist corresponding to the model is available in folder Netlist  
-named **model.cir**. Block diagram and output waveforms are shown below.
+by combining the models of my peers using LTspice. The spice netlist corresponding to the model is available in  
+folder Netlist named **model.cir**. Block diagram and output waveforms are shown below.
 
 <img src="Step_Images/block.PNG" width="600" height="300" >
 <img src="Step_Images/prelaout.PNG" width="600" height="300" >   
