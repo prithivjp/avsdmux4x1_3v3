@@ -1,9 +1,10 @@
 
 
 # avsdmux4x1_3v3 and avsdmux2x1_3v3
-**avsdmux4x1_3v3 and avsdmux2x1_3v3** corresponds to 4 input and 2 input analog multiplexer.The inputs that  
-avsdmux4x1_3v3 and avsdmux2x1_3v3 will be handling are mostly the output from Bandgap reference and Digital 
-to Analog cinverters. The height, width and area of avsdmux4x1_3v3 and avsdmux2x1_3v3 is given below.
+**avsdmux4x1_3v3 and avsdmux2x1_3v3** corresponds to 4 input and 2 input analog multiplexer. The entire  
+design is done with the help of OSU 180nm library. The inputs that avsdmux4x1_3v3 and avsdmux2x1_3v3 will  
+be handling are mostly the output from Bandgap reference and Digital to Analog cinverters. The height, width  
+and area of avsdmux4x1_3v3 and avsdmux2x1_3v3 is given below.
 
 <img src="Step_Images/heightwidth.PNG" width="700" height="139" >
 
