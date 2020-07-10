@@ -1,22 +1,13 @@
 
 
-# avsdmux4x1_3v3 and avsdmux2x1_3v3
-**avsdmux4x1_3v3 and avsdmux2x1_3v3** corresponds to 4 input and 2 input analog multiplexer. The entire  
-design is done with the help of OSU 180nm library. The inputs that avsdmux4x1_3v3 and avsdmux2x1_3v3 will  
-be handling are mostly the output from Bandgap reference and Digital to Analog cinverters. The height, width  
-and area of avsdmux4x1_3v3 and avsdmux2x1_3v3 is given below.
+# avsdmux4x1_3v3 
+**avsdmux4x1_3v3 corresponds to 4 input analog multiplexer. The entire design is done with the help of OSU  
+180nm library. The inputs that avsdmux4x1_3v3 will be handling are mostly the output from Bandgap reference  
+and Digital to Analog cinverters. The height, width and area of avsdmux4x1_3v3 and avsdmux2x1_3v3 is given below.
 
 <img src="Step_Images/heightwidth.PNG" width="700" height="139" >
 
 ## Symbol and Pin Description
-*In a 2 input analog multiplexer there is a total of 6 pins*
-1. Two input pins. (I0 and I1)
-2. One Select signal pins. (select)
-3. Output pin. (Out)
-4. Power pins (VDD and VSS)
-
-<img src="Step_Images/symbol21.PNG" width="600" height="378" >
-<img src="Step_Images/sym21.PNG" width="650" height="400" >
 
 *In a 4  input analog multiplexer there is a total of 9 pins*
 1. Four input pins. (I0, I1, I2, I3)
@@ -116,7 +107,7 @@ largely used for academic purpose and also used by small companiies.
     To run the post layout simulations, you have to add certain lines to the spice file extracted  
     such as library file include commands, voltage descriptions of input and power pins and simulation  
     commands such as **tran and control** commands. Such spice files are already made availabel in the 
-    folder netlist.
+    folder **Netlist**.
    
 ## Pre Layout and Post Layout characteristics
 The schematic and the layout of the 2 input and 4 input analog multiplexer are given below:
@@ -125,7 +116,6 @@ The schematic and the layout of the 2 input and 4 input analog multiplexer are g
 
 <img src="Step_Images/41prepost.PNG" width="900" height="580" >
 
-The layout image with supply rails is available in the folder **Layout** in the repositary.
 The inputs of the multiplexer are basically the outputs of DAC and Bandgap Reference. Such models were created  
 by combining the models of my peers using LTspice. The spice netlist corresponding to the model is available in  
 folder Netlist named **model.cir**.Due to unavailability of model Output of Bandgap Reference 2 is taken as a  
@@ -137,16 +127,12 @@ constant voltage source and the model is checked. Block diagram and output wavef
 ## Characteristics
 Four different inputs were given to the analog multiplexer model and the characteristics of pre and post layout  
 were compared. Very slight glitches and some little variations were seen in the post layout characteristics.  
-The respective spice files for pre layout and post layout (both 2 input and 4 input multiplexer) is available  
-in the folder **Netlist** in the repositary. Follow the steps mentioned in the **Viewing Characteristics** part  
-of README.
+The respective spice files for pre layout and post layoutn is available in the folder **Netlist** in the repositary.  
+Follow the steps mentioned in the **Viewing Characteristics** part of README.
 
 <img src="Step_Images/prelayoutcharac.PNG" width="1101" height="580" >
 
 <img src="Step_Images/postlayoutcharac.PNG" width="1099" height="580" >
-
-Above characteristics corresponds to 4 input Multiplexer. Pre layout and Postlayout characteristics of a 2  
-input Multiplexer is available in the repositary (Folder name: Characteristics).
 
 For any dissimilarities found between the pre layout and postlayout characteristics or any difficulties with  
 respect to IP Usage, contact the administrator or report in issues section of github.
