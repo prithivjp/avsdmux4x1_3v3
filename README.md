@@ -15,15 +15,16 @@ and area of avsdmux4x1_3v3 and avsdmux2x1_3v3 is given below.
 3. Output pin. (Out)
 4. Power pins (VDD and VSS)
 
-<img src="Step_Images/21symbol.PNG" width="650" height="400" >
+<img src="Step_Images/symbol21.PNG" width="650" height="400" >
+<img src="Step_Images/sym21.PNG" width="650" height="400" >
 
 *In a 4  input analog multiplexer there is a total of 9 pins*
 1. Four input pins. (I0, I1, I2, I3)
 2. Two Select signal pins. (S0 and S1)
 3. Output pin. (Out)
 4. Power pins (VDD and VSS)
-
-<img src="Step_Images/41symbol.PNG" width="650" height="400" >
+<img src="Step_Images/symbol41.PNG" width="650" height="400" >
+<img src="Step_Images/sym41.PNG" width="650" height="400" >
 
 
 ## Forthcoming Work  
