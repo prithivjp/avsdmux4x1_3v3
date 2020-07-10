@@ -110,9 +110,7 @@ largely used for academic purpose and also used by small companiies.
     folder **Netlist**.
    
 ## Pre Layout and Post Layout characteristics
-The schematic and the layout of the 2 input and 4 input analog multiplexer are given below:
-
-<img src="Step_Images/21prepost.PNG" width="900" height="580" >
+The schematic and the layout of 4 input analog multiplexer is given below:
 
 <img src="Step_Images/41prepost.PNG" width="900" height="580" >
 
